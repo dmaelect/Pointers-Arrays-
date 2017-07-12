@@ -16,7 +16,7 @@ void Reverse(char* array)
 	{
 		cTemp = *pEnd;           //-- dereference pEnd and store it in cTemp
 		*pEnd-- = *pBegin;       //-- dereference pBegin and store it in dereferenced pEnd
-		            						 //-- decrement pEnd
+		            		 //-- decrement pEnd
 		*pBegin++ = cTemp;       //-- copy cTemp into dereferenced pBegin and increment pBegin
 	}
 }
